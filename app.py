@@ -4,11 +4,11 @@ import pandas as pd
 import re
 import matplotlib.pyplot as plt
 client = tweepy.Client(
-    bearer_token='AAAAAAAAAAAAAAAAAAAAAMlw0gEAAAAAMUgKaRv95X8V67CnjfTN6fG87gM%3DQvG1oC8HxSDWILne4h5MKFuVrbOaZe2uBalaxe6zBky0aZ4lFb',
-    consumer_key='NgAvxo8hMWjkfVaC5KGryiYs3',
-    consumer_secret='ct0TR3w8180ta8btxWjvHhBSxzwu7SLOjilHkxDY7AVYxkPluI',
-    access_token='968860695923167232-gmqQCaHP312biMoMJMCxM4KOpBbPDco',
-    access_token_secret='37VMj57GHqJ7KYZkMr1LUWI05aVVAkGzWnRHlEisgAjoU',
+    bearer_token='',
+    consumer_key='',
+    consumer_secret='',
+    access_token='',
+    access_token_secret='',
     wait_on_rate_limit=True
 )
 def clean_tweet(tweet):
